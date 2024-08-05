@@ -1,0 +1,40 @@
+/* css of about */
+.div{
+    height: 380px;
+}
+.div .about_services_icon{
+    
+
+    margin-top:60px ;
+    margin-bottom: 30px;
+    color: var(--main_color);
+
+}
+.div_h2{
+    margin-bottom: 25px;
+    font-size:20px;
+
+}
+.div_span{
+    color: #222;
+    font-size: larger;
+    line-height: 30px;
+    font-size:15px;
+
+}
+.div_a{
+    color: var(--main_color);
+    text-decoration: none;
+    margin-top: 20px;
+}
+@media (max-width:880px) {
+ 
+    .about_screen{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_screen div{
+        width:80%;
+        margin-left: 5%;
+    }
+ }

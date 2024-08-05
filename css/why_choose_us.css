@@ -1,0 +1,56 @@
+/* css of why_choose_us */
+.why_choose_us{
+    background-color: var(--f9f9f9color);
+    overflow: hidden;
+}
+.div.half{
+    width: 50%;
+}
+
+.div.half .marg_x_y .underline{
+    margin-left: 10px;
+    width: 4%;
+}
+.div.half p{
+    margin-bottom: 10px;
+    color:rgba(1,1,1,0.7);
+}
+.div.half .check{
+    color:rgba(0,0,0,0.7);    
+    list-style:none;
+}
+.div.half ul li i{
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid var(--main_color) ;
+    color: var(--main_color);
+
+}
+.div.half .viewer{
+    list-style: none;
+    width: 100%;
+    height: 20px;
+}
+
+.div.half .viewer li{
+    height: 10px;
+    width: 10px;
+    background-color: #e8e8e8;
+    border:1px solid #6196ff36;
+    margin: 0 1px;
+    border-radius: 50%;
+}
+.div.half .viewer .active{
+    background-color: var(--main_color);
+}
+.div.half .viewer li:hover{
+    background-color: var(--main_color);
+}
+@media (max-width:1200px) {
+    .div.half{
+        height: 696px;
+    }
+    
+    
+}

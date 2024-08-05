@@ -1,0 +1,54 @@
+/* css of services */
+.div.width {
+    width: 32%;
+}
+
+.div.width.between {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.div.width {
+    height: 261px;
+    margin: 20px 0;
+}
+
+.div.width a {
+    left: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.div.width h2 {
+    margin-top: 56px;
+    margin-left: 61px;
+    font-size: 20px;
+
+}
+
+.div.width p {
+    margin-top: 30px;
+    width: 80%;
+    color: rgba(1, 1, 1, 0.7);
+}
+
+.father_of_effects_div:hover p {
+    color: #f9f9f9cc
+}
+
+.father_of_effects_div p {
+    transition: color 0.5s;
+}
+
+@media (max-width:870px) {
+    .services_father {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .services_father div.father_of_effects_div {
+        width: 90%;
+        margin-left:2%;
+    }
+}

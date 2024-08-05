@@ -1,0 +1,31 @@
+/* css of footer */
+.footer{
+    background-color:  var(--footercolor);
+}
+.footer{
+    margin-top: 50px;
+    height: 250px;
+}
+ .footer_logo{
+    margin: auto;
+}
+.footer_icons a{
+    background-color: var(--main_color);
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.footer_icons i{
+    margin-top: 10px;
+    color: var(--whitecolor);
+  
+}
+.footer_icons p{
+    color: #e4dede;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer_icons span{
+    color: var(--main_color);
+}

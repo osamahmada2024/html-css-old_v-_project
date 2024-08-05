@@ -1,0 +1,24 @@
+/* css of numbers */
+.numbers{
+    background-image: url(../images/background/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+.numbers_div{
+    height: 200px;
+    padding: 50px 0;
+}
+.numbers_div i{
+color: var(--main_color);
+}
+
+.numbers_div h4{
+    font-size: 30px;
+    color: #e8e8e8;
+}
+.numbers_div span{
+    color: #e8e8e8;
+}
+
+

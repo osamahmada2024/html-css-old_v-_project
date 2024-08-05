@@ -1,0 +1,67 @@
+
+/* text-align */
+
+.marg_x_y,.div,.dropdown_menu,.home-content,.div.width p,.div.half .viewer,.information,.contact form input,.footer{
+    text-align:center
+}
+.div.nav,ul.nav,.div.sequence,.blog_category p{
+    text-align: right;
+}
+.home,.div.width h2,.div.half,.div.half .marg_x_y,.div.half .marg_x_y .underline,.paragraph,.recent_news_content h3,.recent_news_content p,.recent_news_content a,.div.header_secondary,.blog_news_icons,.blog-left_side h2,.blog-left_side p,.blog_ul,.id_card,.div.bar .h2_bar,.blog_category,.post_content{
+    text-align: left;
+}
+/* text-transform */
+
+
+button,.h2,div.nav,.div_h2,.layer h4,.div.width h2,.information_id,.team_div h4,.recent_news_content h3,.header_secondary h2,.div.sequence p,.blog-left_side h2,.id_card h2,.comments_card_content span,.comments_card_icon a,.leave_a_replay span,.contact-div p,.contact-div h3{
+    text-transform: capitalize;
+}
+.home-content h1,.father_of_effects_div_ttb p,.div.bar .h2_bar,.footer_icons p{
+    text-transform: uppercase;
+}
+.leave_a_replay h2{
+    text-transform: lowercase;
+}
+/* position */
+.overlay,.father_of_effects_div::after,.dropdown_menu,.home-content,.layer,.div.width a,.father_of_effects_div_ttb::after,.information_id,.team_icons ul,.id_card_icons ul,.comments_card_image,.comments_card_icon a,.div.bar .search,.post_image,.post_image img{
+    position: absolute;
+}
+
+.header{
+    position: fixed;
+}
+.father_of_effects_div,.nav >li,.dropdown,.home,.div.height,.div.width,.numbers,.father_of_effects_div_ttb,.information,.information .div,.team_div,.team_image img,.id_card,.comments_card,.blog_content,.search_div,.popular_post{
+    position:relative ;
+}
+
+/* border:0 */
+.leave_a_replay .name,.leave_a_replay .email,.div.half,.numbers_div,.information .div,.div.second_blog,.blog-left_side,.leave_a_replay textarea,.leave_a_replay button,.div.bar,.tags button,.contact-div{
+border: 0;
+}
+/* margin:auto */
+.permonth{
+    margin: auto;
+}
+/* display */
+.nav > li >a::after,.nav >li .home_ancor::after,.div_a,.recent_news_content a,.nav >li .blog_ancor::after,.leave_a_replay button,.contact form,.contact button{
+    display: block;
+}
+
+div.nav,.nav >li,.father_of_divs img,.layer a,.div.width p,.div.half .marg_x_y .underline,.div.half .viewer li,.team_icons ul,.recent_news_icons p,.blog_ul ul,.blog_ul h4,.blog_ul a,.blog_ul,.id_card .img_card ,.id_card h2,.id_card p,.id_card_icons a,.comments_card_content h2,.blog_category span,.blog_category p,.div.bar input,.post_image,.post_content span,.footer_icons a{
+    display: inline-block;
+}
+/* top:0 */
+.comments_card_icon a,.post_image img,.overlay,.father_of_effects_div::after,.header,.layer,.div.width a,.father_of_effects_div_ttb::after,.id_card_icons ul{
+    top:0;
+}
+/* left:0 */
+.overlay,.father_of_effects_div::after,.layer,.father_of_effects_div_ttb::after,.post_image{
+    left:0
+}
+/* right:0 */
+.id_card_icons ul,.comments_card_icon a{
+    right: 0;
+}
+
+
+

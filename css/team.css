@@ -1,0 +1,57 @@
+/* css of team */
+
+.team_image img{
+    height: 300px;
+    width: 95%;
+    padding-top: 5px;
+    transition: opacity 0.5s;
+}
+.team_div span{
+    transition: color 0.5s;
+}
+.team_icons ul {
+background-color:var(--main_color) ;
+list-style: none;
+height:100px;
+width: 30px;
+top: 5;
+right: 8;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s,visibility 0.5s;
+}
+.team_icons li{
+    line-height: 30px;
+    color: var(--whitecolor);
+    
+
+}
+.team_div h4{
+    transition: color 0.5s;
+    margin-bottom:5px;
+}
+
+.team_overlay{
+    background-color: #e8e8e8a1;
+    transition: background-color 0.5s;
+}
+
+.team_div:hover img {
+opacity: 0.6;
+
+}
+.team_div:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.team_div:hover h4{
+    color: var(--whitecolor);
+}
+
+.team_div:hover span{
+    color:var(--main_color)
+}
+.team_div:hover .team_overlay{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+

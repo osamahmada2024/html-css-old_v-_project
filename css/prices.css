@@ -1,0 +1,76 @@
+/* start of div <prices> */
+
+.prices .div{
+    height: 440px;
+ 
+}
+.prices p{
+    color:var(--color8a8989);
+    margin-bottom: 20px;
+    margin-top: 7px;
+    transition: color 0.4s;
+}
+.permonth{
+    border: 2px solid var(--main_color);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: color 0.4s;
+}
+.permonth h2{
+    padding-top: 40px;
+    font-size: 40px;
+}
+.prices ul{
+    list-style: none;
+    color: var(--color8a8989);
+}
+.prices ul li{
+    margin-top: 20px;
+}
+.prices button{
+    margin-top: 40px;
+    height: 50px;
+    width: 180px;
+    border: 2px solid var(--main_color);
+    background-color: var(--fffcolor);
+    border-radius: 4px;
+}
+.prices .div::after{
+    content:"";
+    height:0 ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.88);
+    transition: height 0.5s;
+}
+.prices .div:hover::after{
+    content:"";
+    height:100% ;
+    width: 100%;
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.88) ;
+    z-index: -1;
+}
+.prices .div:hover  p{
+    color: var(--main_color);
+}
+
+
+.father_of_effects_div_ttb:hover .permonth{
+color: var(--whitecolor);
+}
+
+@media (max-width:827px) {
+ 
+    #prices.prices{
+        display: flex;
+        flex-direction: column;
+    }
+    #prices.prices div{
+        margin-left: 5%;
+        width: 90%;
+    }
+ }
+
+
+

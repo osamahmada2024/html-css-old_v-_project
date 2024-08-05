@@ -1,0 +1,52 @@
+/* css of protoflio */
+.protoflio{
+    background-color:var(--f9f9f9color);
+    height: 840px;
+    width: 100%;
+    padding: 10px;
+}
+.father_of_divs img{
+    width: 100%;
+    height: 100%;
+}
+.div.height{
+    height:300px;
+    padding: 6px;
+}
+.layer{
+    content: "";
+    height: 100%;
+    width:0;
+    background-color: rgba(0, 0, 0, 0.88);
+}
+.div.height:hover .layer{
+    width: 100%;
+}
+
+.layer h4{
+    color:var(--main_color);
+    margin-top: 110px;
+}
+.layer p{
+    color: var(--whitecolor);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.layer i{
+    height: 30px;
+    width: 30px;
+    background-color: var(--main_color);
+    padding: 8px;
+    color: var(--f9f9f9color);
+}
+.layer  a{
+    margin:25 3px 0  0 ;
+}
+.text_layer{
+    opacity: 0;
+    visibility: hidden;
+}
+.div.height:hover .text_layer{
+    opacity: 1;
+    visibility: visible;
+}
